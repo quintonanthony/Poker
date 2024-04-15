@@ -499,4 +499,6 @@ public abstract class Player {
         System.out.println("Big blind: " + getGameState().getBig());
         System.out.println("========================================");
     }
+
+    protected abstract boolean shouldFold(HandRanks handRank);
 }
